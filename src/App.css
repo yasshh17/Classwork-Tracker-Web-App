@@ -1,0 +1,76 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #7D3C98;
+  color: var(--white);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow); transition: box-shadow 0.3s ease;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.app-main {
+  flex: 1;
+  padding: 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.app-footer {
+  background-color: #2C2C2C;
+  color: var(--white);
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.welcome-message {
+  font-size: 0.95rem;
+}
+
+.logout-button {
+  background-color: rgba(125, 60, 152, 0.2);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: rgba(125, 60, 152, 0.3);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+  font-size: 1.2rem;
+  color: var(--dark-gray);
+}
+
+.status {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+  font-size: 0.95rem;
+}
+
+.status.error {
+  background-color: #fde8e8;
+  color: var(--danger-color);
+  border: 1px solid #f8d0d0;
+}

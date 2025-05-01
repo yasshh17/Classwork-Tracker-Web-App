@@ -1,0 +1,91 @@
+.detail-checkbox {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  width: auto;
+  height: auto;
+}
+
+.detail-checkbox .checkbox-custom {
+  position: relative;
+  display: inline-block;
+  top: auto;
+  left: auto;
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  margin-left: 5px;
+}
+
+
+.assignment-status.invalid-date {
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+.assignment-status.no-date {
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+.assignment-status.error {
+  background-color: #ffcdd2;
+  color: #b71c1c;
+}
+
+
+.assignment-content {
+  padding: 1.5rem;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+
+.info-value {
+  word-break: break-word;
+}
+
+
+.button {
+  transition: all 0.2s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+
+.checkbox-container {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.completion-toggle .checkbox-container {
+  padding-left: 30px;
+}
+
+.completion-toggle .checkbox-custom {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.info-row .info-value {
+  font-size: 0.95rem;
+}
+
+
+.action-buttons .button {
+  min-width: 80px;
+  text-align: center;
+}
