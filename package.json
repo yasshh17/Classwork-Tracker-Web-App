@@ -1,5 +1,5 @@
 {
-  "name": "class",
+  "name": "classwork-tracker",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "cookie-parser": "^1.4.7",
